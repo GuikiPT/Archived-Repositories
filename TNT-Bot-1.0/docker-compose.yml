@@ -1,0 +1,16 @@
+version: '3.1'
+networks:
+  network:
+    name: docker_network
+    external: true
+
+services:
+  pgadmin4:
+    container_name: TNT-Bot
+    image: guikipt/tnt-rew
+    restart: always
+    env_file:
+      - .env
+    networks:
+      network:
+        ipv4_address: 172.20.1.3

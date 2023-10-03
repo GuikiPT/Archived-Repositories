@@ -1,0 +1,16 @@
+{
+  "name": "tnt-bot",
+  "version": "1.0.0-beta",
+  "main": "main.js",
+  "repository": "https://github.com/GuikiPT/TNT-Bot.git",
+  "author": "GuikiPT <foxzillapt17@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "better-logging": "^5.0.0",
+    "colors": "^1.4.0",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4"
+  }
+}
