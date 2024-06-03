@@ -1,0 +1,32 @@
+{
+  "name": "tnt-bot",
+  "version": "1.0.0",
+  "main": "start.js",
+  "repository": "https://github.com/GuikiPT/TNT-Rewrite.git",
+  "author": "GuikiPT <foxzillapt17@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node start.js",
+    "deploy-slash": "node deploy-commands.js",
+    "docker-run": "npm install && npm run start",
+    "docker-start": "docker-compose up -d",
+    "docker-deploy-slash": "npm install && npm run deploy-slash"
+  },
+  "dependencies": {
+    "@devraelfreeze/discordjs-pagination": "^2.7.6",
+    "@pkmn/data": "^0.7.59",
+    "@pkmn/dex": "^0.7.59",
+    "@pkmn/smogon": "^0.3.6",
+    "axios": "^1.4.0",
+    "cli-spinners": "^2.9.0",
+    "colornames": "^1.1.1",
+    "colors": "^1.4.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.1.4",
+    "figlet-promised": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.12",
+    "pokedex-promise-v2": "3.3.2",
+    "spinnies": "^0.5.1"
+  }
+}
